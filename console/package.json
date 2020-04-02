@@ -1,0 +1,17 @@
+{
+  "name": "console_tuto",
+  "version": "1.0.0",
+  "description": "basic concepts of nodejs through the use of command lines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Thomas Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "validator": "^12.1.0",
+    "yargs": "^15.0.2"
+  }
+}
