@@ -17,7 +17,10 @@ weatherForm.addEventListener('submit', (e) => {
             console.log(data.temperature)
 
             const messageOne = document.querySelector('#message-1')
-            messageOne.textContent = 'Location : '+data.location+" \n Temperature : "+data.temperature
+            const messageTwo = document.querySelector('#message-2')
+
+            messageOne.textContent = data.location
+            messageTwo.textContent = data.temperature
         }
     })
 })
